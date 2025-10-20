@@ -84,6 +84,7 @@ if st.button("Predict Fare"):
             fare = response.json().get("fare")
             if fare:
                 st.success(f"Predicted Fare: ${fare:.2f}")
+
                 st.balloons()
             else:
                 st.warning("Fare not found in API response.")
