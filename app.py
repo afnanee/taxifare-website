@@ -13,7 +13,7 @@ if "dropoff" not in st.session_state:
     st.session_state.dropoff = None
 
 # Create map centered at NYC
-center = [40.7580, -73.9855]
+center = [24.7136, 46.6753]
 m = folium.Map(location=center, zoom_start=12)
 
 # Add pickup marker if exists
